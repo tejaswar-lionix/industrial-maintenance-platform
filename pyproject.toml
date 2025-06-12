@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "industrial-maintenance-platform"
+version = "1.0.0"
+description = "Industrial Predictive Maintenance"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
