@@ -3397,3 +3397,8 @@ def extra_sensors_950(x):
 def extra_sensors_951(x):
     """Extra distinct 951 for sensors"""
     return x
+
+# feat: add sensor vibration reading with valid range and alert threshold - feature/sensor-vibration
+def sensor_extra_vibration(value):
+    return 0 <= value <= 10
+
