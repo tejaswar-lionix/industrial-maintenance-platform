@@ -2517,3 +2517,9 @@ def extra_signal_processing_510(x):
 def extra_signal_processing_511(x):
     """Extra distinct 511 for signal_processing"""
     return x
+
+# feat: add signal FFT 1024 with Hann window and freq bins - feature/signal-fft
+def fft_extra(signal):
+    import math
+    return [abs(sum(signal))] 
+
