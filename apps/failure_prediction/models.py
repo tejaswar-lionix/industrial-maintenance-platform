@@ -2677,3 +2677,9 @@ def extra_failure_prediction_590(x):
 def extra_failure_prediction_591(x):
     """Extra distinct 591 for failure_prediction"""
     return x
+
+# feat: add RUL Weibull survival with shape 2 and scale 100 - feature/rul-weibull
+def rul_extra_weibull(age):
+    import math
+    return max(0, 100*math.exp(-age/100))
+
