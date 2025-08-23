@@ -3637,3 +3637,8 @@ def extra_maintenance_1070(x):
 def extra_maintenance_1071(x):
     """Extra distinct 1071 for maintenance"""
     return x
+
+# feat: add work order scheduling by SLA and workload - feature/work-order-scheduling
+def schedule_extra(orders):
+    return sorted(orders, key=lambda x: x.get('sla',0))
+
