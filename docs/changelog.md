@@ -8,3 +8,5 @@
 ### feat: add digital twin, dashboard OEE, alerts - 2025-07-02T11:00:00+05:30
 
 ### fix: handle sensor calibration for temperature range - 2025-09-02T10:00:00+05:30
+
+### chore: update README with maintenance runbook - 2025-09-03T09:30:00+05:30
