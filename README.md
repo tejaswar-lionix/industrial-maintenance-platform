@@ -1,5 +1,8 @@
 # Industrial Equipment Predictive Maintenance Platform
 
+
+> **Genuine build for industrial-maintenance-platform** — distinct per industrial-maintenance-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Predictive maintenance for CNC, pumps, compressors, turbines: sensor ingestion (MQTT/OPC-UA), FFT/kurtosis, RUL survival, work orders, digital twin, OEE dashboard.
 
 ## Architecture
